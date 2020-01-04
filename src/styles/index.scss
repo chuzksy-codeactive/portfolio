@@ -1,5 +1,11 @@
-$brand-color: blue;
-
-* {
-  color: $brand-color;
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  height: 100%;
+  color: #f2f2f2;
 }
