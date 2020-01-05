@@ -1,0 +1,28 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/landing_page.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+
+  .container-form {
+    padding: 30px;
+    width: 600px;
+  }
+
+  h5 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 128px;
+    border-radius: 50%;
+    text-align: center;
+  }
+}

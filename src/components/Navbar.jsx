@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 
 import '../styles/Navbar.scss';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   state = {
@@ -18,13 +19,13 @@ class Navbar extends Component {
     const { isVisible } = this.state;
     return (
       <div className={`navbar ${!isVisible ? "" : "responsive"}`}>
-        <a className="navbar-link" href="#chuzksy">Chuzksy</a>
-        <a className="navbar-link" href="#about">About</a>
-        <a className="navbar-link" href="#contact">Contact</a>
-        <a className="navbar-link" href="#labs">Labs</a>
-        <a href="#icons" className="icon" onClick={this.toggleNavbar}>
+        <Link className="navbar-link" to="/">Chuzksy</Link>
+        <Link className="navbar-link" to="/about">About</Link>
+        <Link className="navbar-link" to="/contact">Contact</Link>
+        <Link className="navbar-link" to="/labs">Labs</Link>
+        <Link href="#icons" className="icon" onClick={this.toggleNavbar}>
           <i className="fa fa-bars" />
-        </a>
+        </Link>
       </div>
     );
   }
