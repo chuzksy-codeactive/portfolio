@@ -9,6 +9,7 @@ import {
 import Navbar from './Navbar';
 import HomePage from './HomePage';
 import Contact from './Contact';
+import About from './About';
 
 import '../styles/Index.scss';
 
@@ -17,7 +18,8 @@ const AppRoute = () => (
     <Navbar />
     <Switch>
       <Route path="/" exact component={HomePage} />
-      <Route path="/contact" component={Contact} />
+      <Route path="/contact" exact component={Contact} />
+      <Route path="/about" exact component={About} />
     </Switch>
   </Router>
 );

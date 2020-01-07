@@ -19,10 +19,10 @@ class Navbar extends Component {
     const { isVisible } = this.state;
     return (
       <div className={`navbar ${!isVisible ? "" : "responsive"}`}>
-        <Link className="navbar-link" to="/">Chuzksy</Link>
-        <Link className="navbar-link" to="/about">About</Link>
-        <Link className="navbar-link" to="/contact">Contact</Link>
-        <Link className="navbar-link" to="/labs">Labs</Link>
+        <Link className="navbar-link" to="/" onClick={this.toggleNavbar}>Chuzksy</Link>
+        <Link className="navbar-link" to="/about" onClick={this.toggleNavbar}>About</Link>
+        <Link className="navbar-link" to="/contact" onClick={this.toggleNavbar}>Contact</Link>
+        <Link className="navbar-link" to="/labs" onClick={this.toggleNavbar}>Labs</Link>
         <Link href="#icons" className="icon" onClick={this.toggleNavbar}>
           <i className="fa fa-bars" />
         </Link>
