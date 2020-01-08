@@ -18,6 +18,7 @@ const About = () => (
           <h5>Languages I speak</h5>
           <div className="languages">
             <span className="badge badge-info">Javascript</span>
+            <span className="badge badge-info">Typescript</span>
             <span className="badge badge-info">C#</span>
             <span className="badge badge-info">HTML</span>
             <span className="badge badge-info">CSS</span>
@@ -26,17 +27,20 @@ const About = () => (
           </div>
           <h5>Technologies I use</h5>
           <div className="technology">
+            <span className="badge badge-info">.NET Core</span>
             <span className="badge badge-info">EF Core</span>
             <span className="badge badge-info">ASP.NET Core</span>
             <span className="badge badge-info">Dapper ORM</span>
             <span className="badge badge-info">AutoMapper</span>
             <span className="badge badge-info">MSSQL</span>
             <span className="badge badge-info">ReactJS</span>
+            <span className="badge badge-info">Redux</span>
             <span className="badge badge-info">ExpressJS</span>
             <span className="badge badge-info">NodeJS</span>
             <span className="badge badge-info">Swagger</span>
             <span className="badge badge-info">Sequelize</span>
             <span className="badge badge-info">MongoDB</span>
+            <span className="badge badge-info">PostgresSQL</span>
           </div>
           <h5>Development Tools</h5>
           <div className="devtools">
@@ -118,26 +122,33 @@ const About = () => (
     </div>
     <div className="footer">
       <div className="footer-content">
-        <h3>Chika</h3>
+        <h3>Chuzksy</h3>
         <p>
           Living, learning, & leveling up
           <br />
           one day at a time
         </p>
-        <div>
-          <a href="www.linkedin.com/in/onuchukwu-chika" target="_blank">
+        <div className="myicons">
+          <a href="https://linkedin.com/in/onuchukwu-chika" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin" />
           </a>
-          <a href="https://github.com/chuzksy-codeactive" target="_blank">
+          <a href="https://github.com/chuzksy-codeactive" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github" />
           </a>
-          <a href="https://twitter.com/chuzksy" target="_blank">
+          <a href="https://twitter.com/chuzksy" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-twitter" />
           </a>
-          <a href="mailto:chuzksy@gmail.com" target="_blank">
+          <a href="mailto:chuzksy@gmail.com" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-envelope" />
           </a>
         </div>
+        <p className="copyright">
+          Handcrafted by me
+          {' '}
+          <span><i className="fa fa-copyright" /></span>
+          {' '}
+          twentytwenty
+        </p>
       </div>
     </div>
   </div>

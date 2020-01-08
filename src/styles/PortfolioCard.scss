@@ -1,0 +1,61 @@
+.portfolio-card {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 10px;
+
+  .card-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding-bottom: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+
+    h5 {
+      margin-top: 20px;
+      margin-bottom: 0;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .tech-used {
+      margin-left: 10px;
+      margin-right: 10px;
+      span {
+        margin-right: 5px;
+      }
+    }
+
+    .card-foot {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin-top: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      a {
+        background-color: green;
+        color: white;
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
