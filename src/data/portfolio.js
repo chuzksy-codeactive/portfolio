@@ -48,6 +48,14 @@ const portfolio = {
       githublink: 'https://github.com/chuzksy-codeactive/NCS-Electronic-Voting-System',
       type: 'Web API',
     },
+    {
+      id: 7,
+      name: 'Portfolio',
+      tech: ['NodeJS', 'React', 'Sass'],
+      imgUrl: 'https://res.cloudinary.com/dcgwltbei/image/upload/v1578557679/Screenshot_2020-01-09_at_09.14.19.png',
+      githublink: 'https://github.com/chuzksy-codeactive/Portfolio',
+      type: 'Frontend',
+    },
   ],
 };
 

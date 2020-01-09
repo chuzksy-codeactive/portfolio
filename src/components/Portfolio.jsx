@@ -17,6 +17,18 @@ const Portfolio = () => (
         }
       </div>
     </div>
+    <div className="footer">
+      <h3>Let&apos;s talk</h3>
+      <p>
+        Wanna get in touch or talk about a project?
+        <br />
+        Feel free to contact me via email at chuzksy@gmail.com
+        <br />
+        or drop a line in the form at the
+        {' '}
+        <strong>contact page</strong>
+      </p>
+    </div>
   </div>
 );
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 
 import '../styles/PortfolioCard.scss';
@@ -6,13 +7,13 @@ const PortfolioCard = ({ data }) => (
   <div className="card-content">
     <img
       src={data.imgUrl}
-      alt="EventCity"
+      alt={data.name}
       className="card-img"
     />
     <h5>{data.name}</h5>
     <div className="tech-used">
       {
-        data.tech.map((item) => <span className="badge badge-info">{item}</span>)
+        data.tech.map((item, i) => <span className="badge badge-info" key={i}>{item}</span>)
       }
     </div>
     <div className="card-foot">

@@ -41,6 +41,8 @@ const About = () => (
             <span className="badge badge-info">Sequelize</span>
             <span className="badge badge-info">MongoDB</span>
             <span className="badge badge-info">PostgresSQL</span>
+            <span className="badge badge-info">CSS Grid</span>
+            <span className="badge badge-info">CSS Flex</span>
           </div>
           <h5>Development Tools</h5>
           <div className="devtools">

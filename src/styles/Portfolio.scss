@@ -4,6 +4,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: auto;
   height: 100%;
 
   .heading {
@@ -16,5 +17,19 @@
     grid-template-columns: repeat(3, 30%);
     grid-row-gap: 40px;
     grid-column-gap: 20px;
+  }
+
+  .footer {
+    margin-top: 60px;
+    padding-bottom: 40px;
+
+    p,
+    h3 {
+      text-align: center;
+    }
+
+    h3 {
+      font-weight: 700;
+    }
   }
 }
