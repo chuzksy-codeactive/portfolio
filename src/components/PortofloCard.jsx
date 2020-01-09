@@ -18,7 +18,7 @@ const PortfolioCard = ({ data }) => (
     </div>
     <div className="card-foot">
       <a href="#more">More Info...</a>
-      <a href={data.githublink}>View on GitHub</a>
+      <a href={data.githublink} target="_blank" rel="noopener noreferrer">View on GitHub</a>
     </div>
   </div>
 );

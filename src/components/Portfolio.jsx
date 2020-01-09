@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import PortfolioCard from './PortofloCard';
 import portfolio from '../data/portfolio';
@@ -9,6 +10,7 @@ const Portfolio = () => (
   <div className="portfolio">
     <div className="container">
       <h3 className="heading">Web Developer Portfolio</h3>
+      <p className="sub-heading">From Frontend to Backend using React, Redux, NodeJS, .NET Core, SQL. Check out my web software development portfolio projects.</p>
       <div className="portfolio-card">
         {
           portfolio.data.map((item) => (
@@ -22,11 +24,13 @@ const Portfolio = () => (
       <p>
         Wanna get in touch or talk about a project?
         <br />
-        Feel free to contact me via email at chuzksy@gmail.com
+        Feel free to contact me via email at
+        {' '}
+        <a href="mailto:chuzksy@gmail.com">chuzksy@gmail.com</a>
         <br />
         or drop a line in the form at the
         {' '}
-        <strong>contact page</strong>
+        <strong><Link to="/contact">contact page</Link></strong>
       </p>
     </div>
   </div>
