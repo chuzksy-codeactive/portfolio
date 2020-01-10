@@ -1,14 +1,12 @@
 .homepagecontent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
-  flex: 1 1 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/landing_page.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: auto;
+  height: 100%;
 
   .content-img {
     border-radius: 50%;
@@ -75,5 +73,27 @@
 
   .btn:last-child {
     margin-top: 10px;
+  }
+
+  .content {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .btns {
+    margin-top: 70px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .content {
+    margin-top: 80px;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px !important;
   }
 }

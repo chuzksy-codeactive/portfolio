@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../styles/PortfolioCard.scss';
 
@@ -17,7 +18,7 @@ const PortfolioCard = ({ data }) => (
       }
     </div>
     <div className="card-foot">
-      <a href="#more">More Info...</a>
+      <Link to={`/portfolio/${data.id}`}>More Info...</Link>
       <a href={data.githublink} target="_blank" rel="noopener noreferrer">View on GitHub</a>
     </div>
   </div>
