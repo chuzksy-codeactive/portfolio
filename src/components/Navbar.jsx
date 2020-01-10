@@ -19,7 +19,7 @@ class Navbar extends Component {
     const { isVisible } = this.state;
     return (
       <div className={`nav-header${!isVisible ? "" : " responsive"}`}>
-        <Link className="nav-header-link" to="/" onClick={this.toggleNavbar}>Chuzksy</Link>
+        <Link className="nav-header-link" to="/">Chuzksy</Link>
         <Link className="nav-header-link" to="/about" onClick={this.toggleNavbar}>About</Link>
         <Link className="nav-header-link" to="/contact" onClick={this.toggleNavbar}>Contact</Link>
         <Link className="nav-header-link" to="/labs" onClick={this.toggleNavbar}>Labs</Link>

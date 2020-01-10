@@ -72,7 +72,7 @@ const About = () => (
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="testimony">
-                <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578225838/IMG_3006_passport.jpg" alt="passport" />
+                <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656559/temitope.png" alt="passport" />
                 <p>
                   &ldquo;Chika was a real pleasure to work with and we look forward to working
                   <br />
@@ -85,20 +85,20 @@ const About = () => (
             </div>
             <div className="carousel-item">
               <div className="testimony">
-                <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578225838/IMG_3006_passport.jpg" alt="passport" />
+                <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656787/timi.png" alt="passport" />
                 <p>
                   &ldquo;Chika was a real pleasure to work with and we look forward to working
                   <br />
                   with him again. He’s definitely the kind of designer you can trust
                    with a project from start to finish.&rdquo;
                 </p>
-                <strong>Sunday Taiwo</strong>
+                <strong>Olusola Oguntimehin</strong>
                 <span>Thorin Team, Andela</span>
               </div>
             </div>
             <div className="carousel-item">
               <div className="testimony">
-                <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578225838/IMG_3006_passport.jpg" alt="passport" />
+                <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656690/amarachi.png" alt="passport" />
                 <p>
                   &ldquo;Chika was a real pleasure to work with and we look forward to working
                   <br />
@@ -116,6 +116,7 @@ const About = () => (
           <h3>I&apos;m so proud to have collaborated with some awesome companies</h3>
           <div className="collabo-work">
             <span className="badge badge-success">Thorin, Andela</span>
+            <span className="badge badge-success">Converge, Andela</span>
             <span className="badge badge-success">Activo, Andela</span>
             <span className="badge badge-success">New Classrooms, New York</span>
           </div>

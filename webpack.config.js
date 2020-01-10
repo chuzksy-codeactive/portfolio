@@ -40,5 +40,12 @@ module.exports = {
     historyApiFallback: true,
     contentBase: path.join(__dirname, 'dist'),
     hot: true,
+    watchContentBase: true,
+    watchOptions: {
+      ignored: /node_modules/,
+    },
+    port: 8090,
+    host: 'localhost',
+    publicPath: '/',
   },
 };
