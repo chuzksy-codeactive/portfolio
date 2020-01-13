@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   entry: path.resolve(__dirname, './src/index.jsx'),
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
     publicPath: '/',
   },
@@ -32,7 +32,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx'],
   },
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
   ],
@@ -47,5 +47,8 @@ module.exports = {
     port: 8090,
     host: 'localhost',
     publicPath: '/',
+    proxy: {
+      '/api': 'http://localhost:3000',
+    },
   },
 };

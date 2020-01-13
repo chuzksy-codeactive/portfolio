@@ -13,8 +13,6 @@ import Portfolio from './Portfolio';
 import PortfolioDetails from './PortfolioDetails';
 import Project from './Project';
 
-import '../styles/Index.scss';
-
 const AppRoute = () => (
   <Router>
     <Navbar />
