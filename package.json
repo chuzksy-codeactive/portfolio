@@ -1,7 +1,7 @@
 {
   "name": "Portfolio",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode=development",
@@ -9,7 +9,7 @@
     "dev-server": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "chuzksy-codeactive",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "emailjs-com": "^2.4.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router": "^5.1.2",

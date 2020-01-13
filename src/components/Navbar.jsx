@@ -20,9 +20,9 @@ class Navbar extends Component {
     return (
       <div className={`nav-header${!isVisible ? "" : " responsive"}`}>
         <Link className="nav-header-link" to="/">Chuzksy</Link>
+        <Link className="nav-header-link" to="/portfolio" onClick={this.toggleNavbar}>Portfolio</Link>
         <Link className="nav-header-link" to="/about" onClick={this.toggleNavbar}>About</Link>
         <Link className="nav-header-link" to="/contact" onClick={this.toggleNavbar}>Contact</Link>
-        <Link className="nav-header-link" to="/labs" onClick={this.toggleNavbar}>Labs</Link>
         <Link href="#icons" className="icon" onClick={this.toggleNavbar}>
           <i className="fa fa-bars" />
         </Link>
