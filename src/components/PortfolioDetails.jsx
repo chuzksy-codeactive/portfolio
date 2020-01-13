@@ -37,11 +37,11 @@ const PortfolioDetails = (props) => {
         <h3 className="heading">Resources</h3>
         <ul>
           {
-            resources.map((item) => (
-              <li>
+            resources.map((item, i) => (
+              <li key={i}>
                 {`${item.toUpperCase()}:`}
                 {' '}
-                <span><a href={data.resources[item]}>{data.resources[item]}</a></span>
+                <span><a target="_blank" rel="noopener noreferrer" href={data.resources[item]}>{data.resources[item]}</a></span>
               </li>
             ))
           }
@@ -53,7 +53,7 @@ const PortfolioDetails = (props) => {
             <br />
             Feel free to contact me via email at
             {' '}
-            <a href="mailto:chuzksy@gmail.com">chuzksy@gmail.com</a>
+            <a href="mailto:chuzksy@gmail.com" target="_blank" rel="noopener noreferrer">chuzksy@gmail.com</a>
             <br />
             or drop a line in the form at the
             {' '}

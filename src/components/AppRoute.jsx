@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
 } from 'react-router-dom';
 
 import Navbar from './Navbar';
@@ -12,6 +11,7 @@ import Contact from './Contact';
 import About from './About';
 import Portfolio from './Portfolio';
 import PortfolioDetails from './PortfolioDetails';
+import Project from './Project';
 
 import '../styles/Index.scss';
 
@@ -24,6 +24,7 @@ const AppRoute = () => (
       <Route path="/about" exact component={About} />
       <Route path="/portfolio" exact component={Portfolio} />
       <Route path="/portfolio/:id" exact component={PortfolioDetails} />
+      <Route path="/project" exact component={Project} />
     </Switch>
   </Router>
 );

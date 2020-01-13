@@ -89,7 +89,7 @@ const portfolio = {
       videoUrl: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1578571522/evoting.mp4',
       projectDetails: 'eVoting System is a biometric Voting System for a department which eliminates impersonation by using a fingerprint scanner to cast the votes. The system can also backup and restore the database, count and display the vote results, generate reports using crystal report.',
       resources: {
-        github: 'hhttps://github.com/chuzksy-codeactive/NCS-Electronic-Voting-System',
+        github: 'https://github.com/chuzksy-codeactive/NCS-Electronic-Voting-System',
         demo: 'https://drive.google.com/file/d/0B89x_2oF4-81LTdnTEE5eEkzVU0/view?usp=sharing',
       },
     },

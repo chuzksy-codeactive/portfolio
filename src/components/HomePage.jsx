@@ -16,8 +16,8 @@ const HomePage = () => (
         I make web applications usually with NodeJS and .NET Core
       </p>
       <div className="btns">
-        <button className="btn"><Link to="/portfolio">Portfolio</Link></button>
-        <button className="btn">Startup Projects</button>
+        <button className="btn"><Link className="btn-link" to="/portfolio">Portfolio</Link></button>
+        <button className="btn"><Link className="btn-link" to="/project">Current Project</Link></button>
       </div>
     </div>
     <div className="footer-icons">
