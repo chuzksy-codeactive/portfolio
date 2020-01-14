@@ -22,13 +22,13 @@ const Portfolio = () => (
     <div className="footer">
       <h3>Let&apos;s talk</h3>
       <p>
-        Wanna get in touch or talk about a project?
+        Want to get in touch or talk about a project?
         <br />
         Feel free to contact me via email at
         {' '}
         <a href="mailto:chuzksy@gmail.com">chuzksy@gmail.com</a>
         <br />
-        or drop a line in the form at the
+        or drop a message in the form at the
         {' '}
         <strong><Link to="/contact">contact page</Link></strong>
       </p>
