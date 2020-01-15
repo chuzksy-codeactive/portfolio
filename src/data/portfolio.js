@@ -40,7 +40,7 @@ const portfolio = {
       type: 'Web API',
       subInfo: 'Project is a server-side web application, it is built with C#, ASP.NET Core, AutoMapper and MSSQL',
       videoUrl: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1578571524/eventmanager-mp4.mp4',
-      projectDetails: 'This is was a side project I picked up after learning EF Core and ASP.NET Core. The motivation was to learn the best practices on REST architecture. The project is packed with cool features such as CRUD ops, validations, paging, filtering, searching, sorting, data shaping, content negotiation, support for HATEOAS, caching, authentication and authorization, api documentions',
+      projectDetails: 'This is a side project I picked up after learning EF Core and ASP.NET Core. The motivation was to learn the best practices on REST architecture. The project is packed with cool features such as CRUD ops, validations, paging, filtering, searching, sorting, data shaping, content negotiation, support for HATEOAS, caching, authentication and authorization, api documentions',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/EventManager',
         apiDoc: 'https://documenter.getpostman.com/view/5716924/SWECVEib?version=latest',

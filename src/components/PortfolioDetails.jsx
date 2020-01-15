@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
@@ -27,12 +28,13 @@ const PortfolioDetails = (props) => {
             {' '}
             {`This portfolio: ${props.match.params.id} can't be found in the data store`}
           </div>
+          <button type="button" className="back" onClick={() => props.history.goBack()}>Go Back</button>
         </div>
       </div>
     );
   }
-  const resources = Object.keys(data.resources);
 
+  const resources = Object.keys(data.resources);
   const list = (
     <div className="details">
       <div className="container">
