@@ -1,12 +1,36 @@
+/* eslint-disable no-restricted-globals */
+/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 import portfolio from '../data/portfolio';
+import NotFound from './NotFound';
 
 import '../styles/PortfolioDetails.scss';
 
 const PortfolioDetails = (props) => {
+  if (isNaN(props.match.params.id)) {
+    return (
+      <NotFound />
+    );
+  }
+
   const data = portfolio.data.find((item) => item.id.toString() === props.match.params.id);
+
+  if (data == null || data === 'undefined') {
+    return (
+      <div className="undefined">
+        <div className="container">
+          <div className="alert alert-danger" role="alert">
+            <strong>Oops sorry!</strong>
+            <br />
+            {' '}
+            {`This portfolio: ${props.match.params.id} can't be found in the data store`}
+          </div>
+        </div>
+      </div>
+    );
+  }
   const resources = Object.keys(data.resources);
 
   const list = (
