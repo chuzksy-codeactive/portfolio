@@ -39,7 +39,7 @@ const PortfolioDetails = (props) => {
     <div className="details">
       <div className="container">
         <h3 className="heading">{data.name}</h3>
-        <p className="subheading">EventCity is a desktop react javascript web application build on top of election framework</p>
+        <p className="subheading">{data.subInfo}</p>
         <div className="portfolio-play">
           <video autoPlay muted loop className="portfolio-video">
             <source src={data.videoUrl} type="video/mp4" />
