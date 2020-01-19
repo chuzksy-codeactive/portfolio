@@ -8,7 +8,7 @@ const HomePage = () => (
   <div className="homepagecontent">
     <div className="container">
       <div className="content">
-        <img className="content-img" src="https://res.cloudinary.com/dcgwltbei/image/upload/v1579397544/Painnt_200118202942.jpg" alt="passport" />
+        <img className="content-img" src="https://res.cloudinary.com/dcgwltbei/image/upload/v1579399709/painted_img.jpg" alt="passport" />
         <h1>Hi, I&apos;m Chika Onuchukwu</h1>
         <p>
           I am a Web Developer and a programmer living in Lagos,

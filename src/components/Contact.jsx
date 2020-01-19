@@ -73,7 +73,7 @@ class Contact extends Component {
     return (
       <div className="form-container">
         <div className="container form-content">
-          <img className="contact-img" src="https://res.cloudinary.com/dcgwltbei/image/upload/v1579397544/Painnt_200118202942.jpg" alt="passport" />
+          <img className="contact-img" src="https://res.cloudinary.com/dcgwltbei/image/upload/v1579399709/painted_img.jpg" alt="passport" />
           <form className="container-form">
             <h5>Let&apos;s build something together! Or email me if you have any other question</h5>
             <div className="form-group">
