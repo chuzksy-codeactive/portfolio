@@ -6,7 +6,7 @@ const About = () => (
   <div className="about">
     <div className="container">
       <div className="content">
-        <img className="content-img" src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578225838/IMG_3006_passport.jpg" alt="passport" />
+        <img className="content-img" src="https://res.cloudinary.com/dcgwltbei/image/upload/v1579397544/Painnt_200118202942.jpg" alt="passport" />
         <div className="main-content">
           <h5>What I do</h5>
           <p>
