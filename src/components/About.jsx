@@ -73,40 +73,34 @@ const About = () => (
             <div className="carousel-item active">
               <div className="testimony">
                 <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656559/temitope.png" alt="passport" />
-                <p>
-                  &ldquo;Chika was a real pleasure to work with and we look forward to working
-                  <br />
-                  with him again. He’s definitely the kind of designer you can trust
-                   with a project from start to finish.&rdquo;
-                </p>
+                <div className="quote">
+                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+                    Chika is someone that collaborates well with the team. He is the kind of programmer that works hard to get his job done. I look forward to working with him again.
+                </div>
                 <strong>Tope Albert</strong>
-                <span>Technical Cordinator, Activo</span>
+                <span>Software Developer. SystemOne, California</span>
               </div>
             </div>
             <div className="carousel-item">
               <div className="testimony">
                 <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656787/timi.png" alt="passport" />
-                <p>
-                  &ldquo;Chika was a real pleasure to work with and we look forward to working
-                  <br />
-                  with him again. He’s definitely the kind of designer you can trust
-                   with a project from start to finish.&rdquo;
-                </p>
+                <div className="quote">
+                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+                    I know Chika to be a developer that likes learning something new. Always motivated to build stuffs with what he has learnt. 
+                </div>
                 <strong>Olusola Oguntimehin</strong>
-                <span>Thorin Team, Andela</span>
+                <span>Software Developer. Snaps Media Inc. NY</span>
               </div>
             </div>
             <div className="carousel-item">
               <div className="testimony">
                 <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656690/amarachi.png" alt="passport" />
-                <p>
-                  &ldquo;Chika was a real pleasure to work with and we look forward to working
-                  <br />
-                  with him again. He’s definitely the kind of designer you can trust
-                   with a project from start to finish.&rdquo;
-                </p>
+                <div className="quote">
+                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+                    I remembered working with Chika, it's really a pleasure working with him. He has good communication skills and can easily pick up a new tech skill.
+                </div>
                 <strong>Amarachukwu Agbo</strong>
-                <span>Technical Cordinator, Activo</span>
+                <span>Technical Cordinator, Travela. Andela</span>
               </div>
             </div>
           </div>

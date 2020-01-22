@@ -67,8 +67,9 @@
         margin-bottom: 20px;
       }
 
-      p {
-        text-align: center;
+      .quote {
+        width: 700px;
+        margin-bottom: 30px;
       }
     }
   }
@@ -152,6 +153,11 @@
       width: 80px !important;
       height: 80px !important;
     }
+
+    .quote {
+      width: 100% !important;
+      margin-bottom: 30px;
+    }
   }
 
   .collabo {
@@ -170,6 +176,11 @@
     img {
       width: 80px !important;
       height: 80px !important;
+    }
+
+    .quote {
+      width: 100% !important;
+      margin-bottom: 30px;
     }
   }
 
