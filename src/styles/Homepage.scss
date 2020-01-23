@@ -16,6 +16,10 @@
     margin-bottom: 30px;
   }
 
+  .container {
+    height: 100%;
+  }
+
   p {
     font-size: 1.2rem;
   }
@@ -86,10 +90,6 @@
 
   .btn:last-child {
     margin-top: 10px;
-  }
-
-  .content {
-    margin-top: 60px;
   }
 }
 

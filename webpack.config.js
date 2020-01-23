@@ -32,20 +32,19 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx'],
   },
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
   ],
   devServer: {
-    historyApiFallback: true,
     contentBase: path.join(__dirname, 'dist'),
     hot: true,
-    watchContentBase: true,
-    watchOptions: {
-      ignored: /node_modules/,
-    },
+    historyApiFallback: true,
+    host: '0.0.0.0',
     port: 8090,
-    host: 'localhost',
-    publicPath: '/',
+    proxy: {
+      '/api': 'http://localhost:8080',
+    },
+    overlay: true,
   },
 };

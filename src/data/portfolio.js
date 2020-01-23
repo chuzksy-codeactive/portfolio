@@ -12,8 +12,8 @@ const portfolio = {
       projectDetails: 'Project was developed as an apprentice in Andela Apprenticeship Program. Where we learnt by doing. The project is a comprehensive room scheduling software that is designed to facilitate the manangement of meetings and events. ',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/eventcity-react',
-        webUrl: 'https://eventcity.herokuapp.com/',
-        apiDoc: 'https://eventcity.herokuapp.com/api-docs/',
+        'Web Url': 'https://eventcity.herokuapp.com/',
+        'Api Docs (Swagger)': 'https://eventcity.herokuapp.com/api-docs/',
       },
     },
     {
@@ -28,7 +28,7 @@ const portfolio = {
       projectDetails: 'The project is a simple web application that generates random phone numbers of 11 digits, it saves the generated numbers into a CSV file. It can also get the generated phone numbers sorted in ascending and descending order. ',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/phone-number-generator',
-        webUrl: 'https://phone-numbers-provider.herokuapp.com/',
+        'Web Url': 'https://phone-numbers-provider.herokuapp.com/',
       },
     },
     {
@@ -40,10 +40,11 @@ const portfolio = {
       type: 'Web API',
       subInfo: 'Project is a server-side web application, it is built with C#, ASP.NET Core, AutoMapper and MSSQL',
       videoUrl: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1578571524/eventmanager-mp4.mp4',
-      projectDetails: 'This is was a side project I picked up after learning EF Core and ASP.NET Core. The motivation was to learn the best practices on REST architecture. The project is packed with cool features such as CRUD ops, validations, paging, filtering, searching, sorting, data shaping, content negotiation, support for HATEOAS, caching, authentication and authorization, api documentions',
+      projectDetails: 'This is a side project I picked up after learning EF Core and ASP.NET Core. The motivation was to learn the best practices on REST architecture. The project is packed with cool features such as CRUD ops, validations, paging, filtering, searching, sorting, data shaping, content negotiation, support for HATEOAS, caching, authentication and authorization, api documentions',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/EventManager',
-        apiDoc: 'https://documenter.getpostman.com/view/5716924/SWECVEib?version=latest',
+        'api Doc (Postman)': 'https://documenter.getpostman.com/view/5716924/SWECVEib?version=latest',
+        'api Url (Swagger)': 'https://chuzksy-eventmanager.azurewebsites.net/swagger/index.html',
       },
     },
     {
@@ -58,8 +59,8 @@ const portfolio = {
       projectDetails: 'A simple web api application that manages the population details of a specific location',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/pms-app',
-        apiDoc: 'https://documenter.getpostman.com/view/5716924/S1ETPvcX',
-        weburl: 'https://my-pms-app.herokuapp.com/',
+        'Api Docs (Postman)': 'https://documenter.getpostman.com/view/5716924/S1ETPvcX',
+        'Web Url': 'https://my-pms-app.herokuapp.com/',
       },
     },
     {
@@ -74,8 +75,8 @@ const portfolio = {
       projectDetails: 'A simple web api application that manages sms between the sender and the receiver',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/sms-manager',
-        apiDoc: 'https://documenter.getpostman.com/view/5716924/S1ERwHe2?version=latest',
-        weburl: 'https://sms-api-manager.herokuapp.com/',
+        'Api Docs': 'https://documenter.getpostman.com/view/5716924/S1ERwHe2?version=latest',
+        'Web Url': 'https://sms-api-manager.herokuapp.com/',
       },
     },
     {

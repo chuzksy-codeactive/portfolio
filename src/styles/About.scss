@@ -1,5 +1,5 @@
 .about {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/landing_page.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/landing_page.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,8 +14,8 @@
 
     .content-img {
       border-radius: 50%;
-      width: 120px;
-      height: 120px;
+      width: 148px;
+      height: 148px;
       align-self: center;
     }
 
@@ -67,8 +67,9 @@
         margin-bottom: 20px;
       }
 
-      p {
-        text-align: center;
+      .quote {
+        width: 700px;
+        margin-bottom: 30px;
       }
     }
   }
@@ -152,6 +153,11 @@
       width: 80px !important;
       height: 80px !important;
     }
+
+    .quote {
+      width: 100% !important;
+      margin-bottom: 30px;
+    }
   }
 
   .collabo {
@@ -170,6 +176,11 @@
     img {
       width: 80px !important;
       height: 80px !important;
+    }
+
+    .quote {
+      width: 100% !important;
+      margin-bottom: 30px;
     }
   }
 

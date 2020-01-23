@@ -1,19 +1,45 @@
+/* eslint-disable react/no-array-index-key */
+/* eslint-disable no-restricted-globals */
+/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 import portfolio from '../data/portfolio';
+import NotFound from './NotFound';
 
 import '../styles/PortfolioDetails.scss';
 
 const PortfolioDetails = (props) => {
-  const data = portfolio.data.find((item) => item.id.toString() === props.match.params.id);
-  const resources = Object.keys(data.resources);
+  if (isNaN(props.match.params.id)) {
+    return (
+      <NotFound />
+    );
+  }
 
+  const data = portfolio.data.find((item) => item.id.toString() === props.match.params.id);
+
+  if (data == null || data === 'undefined') {
+    return (
+      <div className="undefined">
+        <div className="container">
+          <div className="alert alert-danger" role="alert">
+            <strong>Oops sorry!</strong>
+            <br />
+            {' '}
+            {`This portfolio: ${props.match.params.id} can't be found in the data store`}
+          </div>
+          <button type="button" className="back" onClick={() => props.history.goBack()}>Go Back</button>
+        </div>
+      </div>
+    );
+  }
+
+  const resources = Object.keys(data.resources);
   const list = (
     <div className="details">
       <div className="container">
         <h3 className="heading">{data.name}</h3>
-        <p className="subheading">EventCity is a desktop react javascript web application build on top of election framework</p>
+        <p className="subheading">{data.subInfo}</p>
         <div className="portfolio-play">
           <video autoPlay muted loop className="portfolio-video">
             <source src={data.videoUrl} type="video/mp4" />

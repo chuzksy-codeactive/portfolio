@@ -4,31 +4,21 @@ import React, { Component } from 'react';
 import '../styles/Navbar.scss';
 import { Link } from 'react-router-dom';
 
-class Navbar extends Component {
-  state = {
-    isVisible: false
-  }
+const Navbar = () => (
 
-  toggleNavbar = () => {
-    this.setState(prevState => ({
-      isVisible: !prevState.isVisible
-    }));
-  };
-
-  render() {
-    const { isVisible } = this.state;
-    return (
-      <div className={`nav-header${!isVisible ? "" : " responsive"}`}>
-        <Link className="nav-header-link" to="/">Chuzksy</Link>
-        <Link className="nav-header-link" to="/portfolio" onClick={this.toggleNavbar}>Portfolio</Link>
-        <Link className="nav-header-link" to="/about" onClick={this.toggleNavbar}>About</Link>
-        <Link className="nav-header-link" to="/contact" onClick={this.toggleNavbar}>Contact</Link>
-        <Link href="#icons" className="icon" onClick={this.toggleNavbar}>
-          <i className="fa fa-bars" />
-        </Link>
+  <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <Link to="/" className="navbar-brand">Chuzksy</Link>
+    <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span className="navbar-toggler-icon" />
+    </button>
+    <div className="collapse navbar-collapse" id="navbarCollapse">
+      <div className="navbar-nav ml-auto">
+        <Link to="/portfolio" className="nav-item nav-link">Portfolio</Link>
+        <Link to="/about" className="nav-item nav-link">About</Link>
+        <Link to="/contact" className="nav-item nav-link">Contact</Link>
       </div>
-    );
-  }
-}
+    </div>
+  </nav>
+);
 
 export default Navbar;

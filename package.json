@@ -4,9 +4,12 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode=development",
+    "start:client": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "start": "npm run build && node server.js",
+    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
+    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;"
   },
   "keywords": [],
   "author": "chuzksy-codeactive",
@@ -35,6 +38,7 @@
   },
   "dependencies": {
     "emailjs-com": "^2.4.1",
+    "express": "^4.17.1",
     "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
