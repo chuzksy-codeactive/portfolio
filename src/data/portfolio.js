@@ -108,6 +108,21 @@ const portfolio = {
         github: 'https://github.com/chuzksy-codeactive/Portfolio',
       },
     },
+    {
+      id: 8,
+      name: 'Book List',
+      tech: ['ASP.NET', 'EF Core', '.Net Core'],
+      imgUrl: 'https://res.cloudinary.com/dcgwltbei/image/upload/v1583751335/razor-page.png',
+      githublink: 'https://github.com/chuzksy-codeactive/BookListRazor',
+      type: 'Frontend',
+      subInfo: 'A simple ASP.NET Core application built with Razor pages',
+      videoUrl: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1583751365/razor-pages.mp4',
+      projectDetails: 'The application performs basic CRUD operations using Entity Framework Core',
+      resources: {
+        github: 'https://github.com/chuzksy-codeactive/BookListRazor',
+        'Web Url': 'https://booklistrazor.azurewebsites.net/',
+      },
+    },
   ],
 };
 
