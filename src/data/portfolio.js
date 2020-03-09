@@ -110,7 +110,7 @@ const portfolio = {
     },
     {
       id: 8,
-      name: 'Book List',
+      name: 'Book List (Razor Project)',
       tech: ['ASP.NET', 'EF Core', '.Net Core'],
       imgUrl: 'https://res.cloudinary.com/dcgwltbei/image/upload/v1583751335/razor-page.png',
       githublink: 'https://github.com/chuzksy-codeactive/BookListRazor',
