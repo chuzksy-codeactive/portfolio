@@ -15,7 +15,7 @@ const HomePage = () => (
             I am a Web Developer and a programmer living in Lagos,
             Nigeria.
             <br />
-            I make web applications usually with NodeJS and .NET Core
+            I make web applications using React.js, Node.js and .NET Core
           </p>
           <div className="btns">
             <button className="btn"><Link className="btn-link" to="/portfolio">Portfolio</Link></button>

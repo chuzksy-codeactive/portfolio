@@ -26,6 +26,7 @@ const Content = ({ project }) => (
         <a target="_blank" href={project.website}>{project.website}</a>
       </p>
     )}
+    <p><strong>Techonology Stack: </strong>React, Node.js, Express, MongoDb</p>
     {project.demo && <p><strong>Demo</strong></p>}
     {
       project.demo && (

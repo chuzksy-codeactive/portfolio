@@ -1,5 +1,3 @@
-import React from 'react';
-
 const projects = [
   {
     name: 'Learning DSA (Fullstack)',
@@ -8,7 +6,7 @@ const projects = [
     technologies: ['React', 'MongoDB', 'Mongoose', 'ExpressJS', 'NodeJS'],
     github: 'https://github.com/chuzksy-codeactive/learning-dsa',
     website: 'https://glacial-lake-17995.herokuapp.com/',
-    demo: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1587636645/dsa.mp4'
+    demo: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1587636645/dsa.mp4',
   },
   {
     name: 'Online Shop (Fullstack)',
