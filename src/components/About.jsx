@@ -20,29 +20,29 @@ const About = () => (
             <span className="badge badge-info">Javascript</span>
             <span className="badge badge-info">Typescript</span>
             <span className="badge badge-info">C#</span>
+            <span className="badge badge-info">Sass</span>
             <span className="badge badge-info">HTML</span>
             <span className="badge badge-info">CSS</span>
-            <span className="badge badge-info">Sass</span>
             <span className="badge badge-info">SQL</span>
           </div>
           <h5>Technologies I use</h5>
           <div className="technology">
+            <span className="badge badge-info">ReactJS</span>
+            <span className="badge badge-info">Redux</span>
+            <span className="badge badge-info">NodeJS</span>
+            <span className="badge badge-info">ExpressJS</span>
+            <span className="badge badge-info">MongoDB</span>
+            <span className="badge badge-info">Sequelize</span>
+            <span className="badge badge-info">PostgresSQL</span>
+            <span className="badge badge-info">CSS Grid</span>
+            <span className="badge badge-info">CSS Flex</span>
             <span className="badge badge-info">.NET Core</span>
             <span className="badge badge-info">EF Core</span>
             <span className="badge badge-info">ASP.NET Core</span>
             <span className="badge badge-info">Dapper ORM</span>
             <span className="badge badge-info">AutoMapper</span>
             <span className="badge badge-info">MSSQL</span>
-            <span className="badge badge-info">ReactJS</span>
-            <span className="badge badge-info">Redux</span>
-            <span className="badge badge-info">ExpressJS</span>
-            <span className="badge badge-info">NodeJS</span>
             <span className="badge badge-info">Swagger</span>
-            <span className="badge badge-info">Sequelize</span>
-            <span className="badge badge-info">MongoDB</span>
-            <span className="badge badge-info">PostgresSQL</span>
-            <span className="badge badge-info">CSS Grid</span>
-            <span className="badge badge-info">CSS Flex</span>
           </div>
           <h5>Development Tools</h5>
           <div className="devtools">

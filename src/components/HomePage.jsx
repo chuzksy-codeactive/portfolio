@@ -18,7 +18,7 @@ const HomePage = () => (
         </p>
         <div className="btns">
           <button className="btn"><Link className="btn-link" to="/portfolio">Portfolio</Link></button>
-          <button className="btn"><Link className="btn-link" to="/project">Current Project</Link></button>
+          <button className="btn"><Link className="btn-link" to="/project">Current Projects</Link></button>
         </div>
       </div>
       <div className="footer-icons">

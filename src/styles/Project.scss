@@ -24,5 +24,18 @@
     a:hover {
       color: gainsboro;
     }
+
+    .portfolio-play {
+      margin-bottom: 30px;
+      .portfolio-video {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid white;
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
   }
+
+
 }
