@@ -7,6 +7,7 @@ const projects = [
     github: 'https://github.com/chuzksy-codeactive/learning-dsa',
     website: 'https://glacial-lake-17995.herokuapp.com/',
     demo: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1587636645/dsa.mp4',
+    stack: 'React, Nodejs, Express, MongoDb',
   },
   {
     name: 'Online Shop (Fullstack)',
@@ -14,6 +15,7 @@ const projects = [
     motivation: 'My motivation is to deepen my knowledge in Nodejs and to have my hands dirty by implementing the features listed below.',
     features: ['Payments', 'Pagination', 'File upload and Download', 'Error Handling', 'MVC', 'Sending Emails', 'MongoDB', 'Authentication', 'Validation', 'Deployment'],
     github: 'https://github.com/chuzksy-codeactive/online-shop',
+    stack: 'Nodejs, Express, EJS, MongoDb',
   },
 ];
 
