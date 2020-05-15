@@ -7,7 +7,7 @@ const portfolio = {
       imgUrl: 'https://res.cloudinary.com/dcgwltbei/image/upload/v1586488616/8_Best_Screen_Recorders_for_Windows_10_-_Free_Paid_-_Google_Chrome_4_10_2020_4_16_01_AM.png',
       githublink: 'https://github.com/chuzksy-codeactive/Survely',
       type: 'FullStack (MERN)',
-      subInfo: 'A full-stack project built with Node, Express, React, Redux, Passport.js, Sendgrid, OAuth2, Stripe.',
+      subInfo: 'This is a full-stack project built with Node, Express, React, Redux, Passport.js, Sendgrid, OAuth2, Stripe.',
       videoUrl: 'https://res.cloudinary.com/dcgwltbei/video/upload/v1586488959/React_App_-_Google_Chrome_2020-04-10_04-09-51.mp4',
       projectDetails: 'A full-stack project built with Node, Express, React, Redux, Passport.js, Sendgrid, OAuth2, Stripe. It is a simple project that sends out surveys to users via emails and accepts payments to purchase credits',
       resources: {
