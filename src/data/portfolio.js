@@ -58,8 +58,8 @@ const portfolio = {
       projectDetails: 'This is a side project I picked up after learning EF Core and ASP.NET Core. The motivation was to learn the best practices on REST architecture. The project is packed with cool features such as CRUD ops, validations, paging, filtering, searching, sorting, data shaping, content negotiation, support for HATEOAS, caching, authentication and authorization, api documentions',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/EventManager',
-        'api Doc (Postman)': 'https://documenter.getpostman.com/view/5716924/SWECVEib?version=latest',
-        'api Url (Swagger)': 'https://chuzksy-eventmanager.azurewebsites.net/swagger/index.html',
+        'api Doc (Postman)': 'https://documenter.getpostman.com/view/2430813/SztK1QQ7',
+        'api Url (Swagger)': 'https://eventmgt-docker.herokuapp.com/index.html',
       },
     },
     {
