@@ -120,7 +120,7 @@ const portfolio = {
       projectDetails: 'The application performs basic CRUD operations using Entity Framework Core',
       resources: {
         github: 'https://github.com/chuzksy-codeactive/BookListRazor',
-        'Web Url': 'https://booklistrazor.azurewebsites.net/',
+        'Web Url': 'https://booklist-docker.herokuapp.com/',
       },
     },
   ],
