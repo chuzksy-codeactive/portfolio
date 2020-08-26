@@ -17,9 +17,9 @@ const About = () => (
           </p>
           <h5>Languages I speak</h5>
           <div className="languages">
+            <span className="badge badge-info">C#</span>
             <span className="badge badge-info">Javascript</span>
             <span className="badge badge-info">Typescript</span>
-            <span className="badge badge-info">C#</span>
             <span className="badge badge-info">Sass</span>
             <span className="badge badge-info">HTML</span>
             <span className="badge badge-info">CSS</span>
@@ -27,6 +27,14 @@ const About = () => (
           </div>
           <h5>Technologies I use</h5>
           <div className="technology">
+            <span className="badge badge-info">.NET Core</span>
+            <span className="badge badge-info">ASP.NET Core</span>
+            <span className="badge badge-info">EF Core</span>
+            <span className="badge badge-info">Docker</span>
+            <span className="badge badge-info">Dapper ORM</span>
+            <span className="badge badge-info">AutoMapper</span>
+            <span className="badge badge-info">Swagger</span>
+            <span className="badge badge-info">MSSQL</span>
             <span className="badge badge-info">ReactJS</span>
             <span className="badge badge-info">Redux</span>
             <span className="badge badge-info">NodeJS</span>
@@ -36,13 +44,6 @@ const About = () => (
             <span className="badge badge-info">PostgresSQL</span>
             <span className="badge badge-info">CSS Grid</span>
             <span className="badge badge-info">CSS Flex</span>
-            <span className="badge badge-info">.NET Core</span>
-            <span className="badge badge-info">EF Core</span>
-            <span className="badge badge-info">ASP.NET Core</span>
-            <span className="badge badge-info">Dapper ORM</span>
-            <span className="badge badge-info">AutoMapper</span>
-            <span className="badge badge-info">MSSQL</span>
-            <span className="badge badge-info">Swagger</span>
           </div>
           <h5>Development Tools</h5>
           <div className="devtools">
@@ -74,7 +75,7 @@ const About = () => (
               <div className="testimony">
                 <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656559/temitope.png" alt="passport" />
                 <div className="quote">
-                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+                <i className="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
                     Chika is someone that collaborates well with the team. He is the kind of programmer that works hard to get his job done. I look forward to working with him again.
                 </div>
                 <strong>Tope Albert</strong>
@@ -85,7 +86,7 @@ const About = () => (
               <div className="testimony">
                 <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656787/timi.png" alt="passport" />
                 <div className="quote">
-                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+                <i className="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
                     I know Chika to be a developer that likes learning something new. Always motivated to build stuffs with what he has learnt. 
                 </div>
                 <strong>Olusola Oguntimehin</strong>
@@ -96,7 +97,7 @@ const About = () => (
               <div className="testimony">
                 <img src="https://res.cloudinary.com/dcgwltbei/image/upload/v1578656690/amarachi.png" alt="passport" />
                 <div className="quote">
-                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+                <i className="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
                     I remembered working with Chika, it's really a pleasure working with him. He has good communication skills and can easily pick up a new tech skill.
                 </div>
                 <strong>Amarachukwu Agbo</strong>
@@ -109,10 +110,11 @@ const About = () => (
         <div className="collabo">
           <h3>I&apos;m so proud to have collaborated with some awesome companies</h3>
           <div className="collabo-work">
-            <span className="badge badge-success">Thorin, Andela</span>
-            <span className="badge badge-success">Converge, Andela</span>
-            <span className="badge badge-success">Activo, Andela</span>
+            <span className="badge badge-success">Prunedge, Lagos</span>
             <span className="badge badge-success">New Classrooms, New York</span>
+            <span className="badge badge-success">Activo, Andela</span>
+            <span className="badge badge-success">Converge, Andela</span>
+            <span className="badge badge-success">Thorin, Andela</span>
           </div>
         </div>
       </div>
