@@ -10,7 +10,7 @@ const Portfolio = () => (
   <div className="portfolio">
     <div className="container">
       <h3 className="heading">Web Developer Portfolio</h3>
-      <p className="sub-heading">From Frontend to Backend using React, Redux, NodeJS, .NET Core, SQL. Check out my web software development portfolio projects.</p>
+      <p className="sub-heading">From Backend to Frontend using ASP.NET Web API, .NET Core, EF Core, SQL, React, Redux, NodeJS. Check out my web software development portfolio projects.</p>
       <div className="portfolio-card">
         {
           portfolio.data.map((item) => (
