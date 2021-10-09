@@ -2,7 +2,7 @@
   "name": "Portfolio",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start:client": "webpack --mode=development",
     "build": "webpack --mode=production",
