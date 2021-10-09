@@ -11,5 +11,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, function() {
-  console.log( 'Portfolio is running on port ' + app.get( 'port' ));
+  console.log( 'Portfolio is running on port ' + port);
   });
