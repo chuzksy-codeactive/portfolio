@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:client": "webpack --mode=development",
-    "build": "webpack --mode=production",
+    "build": "webpack --config webpack.config.js --mode=production",
     "dev-server": "webpack-dev-server",
     "start": "npm run build && node index.js",
     "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
@@ -31,7 +31,7 @@
     "react-hot-loader": "^4.13.0",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
-    "webpack": "^5.36.2",
+    "webpack": "^5.58.2",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^4.3.1"
   },
